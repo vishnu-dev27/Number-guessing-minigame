@@ -1,5 +1,6 @@
 secret_number = 841
 for i in range(5):
+	print(f"Attempt {i+1}/5")
 	guess = int(input("Guess the number: "))
 	if guess > secret_number:
 		print("Bro that's ahead of your Guess!")
